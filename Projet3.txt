@@ -1,0 +1,8 @@
+Page d'acceuil
+Page de recherche
+Page de consultation de bien
+Page de profil
+Page de compte
+Page de bien
+Page de connexion
+Page d'inscription
