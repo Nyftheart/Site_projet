@@ -1,0 +1,65 @@
+header
+{
+    background-color: #ff585e;
+    font-family: 'Lora', serif;
+}
+
+
+
+img.logo
+{
+    width:150px;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+div.text
+{
+    width:600%;
+    margin-left:200px;
+    color: #eecda2;
+  
+}
+
+
+h2
+{
+    margin:0;
+    position:relative;
+}
+nav
+{
+    /*border-top:1px solid black;
+    border-right:1px solid black; */
+    margin-left:200px;
+}
+.menu ul {
+    list-style-type: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+
+.menu {
+    display: inline-block;
+    
+
+}
+
+.menu a::after {
+    display: inline-block;
+    color: #000;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+    
+
+    
+}
+
+body
+{
+    margin:0px;
+}
