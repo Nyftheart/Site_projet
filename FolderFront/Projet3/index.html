@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/27a8d3385a.js" crossorigin="anonymous"></script>
     <title>Projet</title>
 </head>
 <header>
+
+    <!-- LOGO + NAVBAR-->
     <div class="logo">
         <img class="logo" src="logo orange.jpg" alt="Logo">
         <div class="text">
@@ -23,7 +26,43 @@
         </nav>
     </div>
 </header>
+
+<!-- FIN LOGO + NAVBAR -->
+<!-- BARRE DE RECHERCHE -->
 <body>
-    
-</body>
+    <div class="container">
+        <div id="content">
+          <form class='form-inline'>
+            <div class="input-group">
+              <input type='text' id='search' class="form-control search-form" placeholder="Une destination ?">
+              <span class="input-group-btn" style="width:39px">
+                <button id="search-this"type="button" class="pull-right btn btn-default search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </form>
+          
+          
+          
+      </div>
+    </div>
+<!-- FIN BARRE DE RECHERCHE -->
+<!-- IMAGE DESTINATION -->
+    <div class="destination">
+        <img class="destination1" src="Paris.jpg" alt="D1">
+        <img class="destination2" src="Toulouse.jpg" alt="D2">
+        <img class="destination3" src="Lyon.jpg" alt="D3">
+    </div>
+<!-- FIN IMAGE DESTINATION-->
+<!-- TEXTE DESTINATION -->
+<div class="texte">
+    <p class="texte1"> Paris, la capitale de France. Une petite baguette sous la scène magique du crépuscule illuminant la Seine ? </p>
+    <p class="texte2"> Envie d'une fringale ? Venez a Toulouse mangez des galettes bretonnes ! </p>
+    <p class="texte3"> Profitez de Lyon et de ses squares effervescent ! </p>
+</div>
+  </body>
+  <footer>
+      <h2> Airbnb Copyright 2020, tout droit réservés.</h2>
+  </footer>
 </html>

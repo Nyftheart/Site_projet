@@ -62,4 +62,108 @@ nav
 body
 {
     margin:0px;
+    background-color: #f5b0b1;
+    
+}
+
+html, body {
+    height:100%;
+    background-color: #666699;
+  }
+  
+  .well {
+    background-color: #ffffee
+  }
+  
+  #content {
+    text-align:center; 
+    padding-top: 5px;
+  }
+  
+  .search-form {
+    border-radius: 30px 0 0 30px;
+  }
+  
+  .input-group {
+    width:100%;
+  }
+  
+  input-group-btn {
+    max-width:38px;
+  }
+  
+  #search {
+    border: 1px;
+  }
+  
+  .search-btn {
+    cursor:pointer;
+    border-radius: 0 30px 30px 0; 
+    background-color:#fff;
+    color:#669;
+    
+  }
+  
+  .text-center {
+    color: #fff;
+}
+
+div.destination
+{
+    text-align:center;
+    margin-top:20px;
+    display:flex;
+    
+}
+
+img.destination1
+{
+    margin: 0 100px 0 275px;
+    border: 2px solid black;
+}
+
+img.destination2
+{
+    width:19%;
+    margin: 0 100px 0 100px;
+    border: 2px solid black;
+}
+
+img.destination3
+{
+    width:20%;
+    margin: 0 100px 0 100px;
+    border: 2px solid black;
+}
+
+div.texte
+{
+    text-align:center;
+    display:flex;
+    
+}
+
+p.texte1
+{
+    height: 50px;
+    width: 250px;
+    margin-left: 290px;
+    margin-right: 275px;
+}
+
+p.texte2
+{
+    width: 290px;
+    margin-right: 275px;
+}
+
+p.texte3
+{
+    width:290px;
+}
+
+footer
+{
+    background-color: #ff585e;
+    text-align:center;
 }
