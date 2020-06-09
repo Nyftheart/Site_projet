@@ -1,0 +1,50 @@
+html
+{
+    font-family: 'Lora', serif;
+}
+
+div.flex {
+    display:flex;
+    flex-wrap: wrap;
+}
+div.annonce
+{
+    border: 2px solid black;
+    height: 335px;
+    width: 550px;
+    margin-left:120px;
+    margin-top: 40px;
+}
+
+img.photo
+{
+    border: 1px solid black;
+    width:35%;
+    margin-left:10px;
+}
+
+div.titre
+{
+    padding-left: 7px;
+}
+
+div.test
+{
+    display:flex;
+}
+
+div.description
+{
+    padding-left: 6px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 22px;
+}
