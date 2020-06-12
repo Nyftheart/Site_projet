@@ -1,0 +1,32 @@
+div.profil
+{
+    padding: 5px;
+    border: 2px solid black;
+    margin-left:440px;
+    margin-right: 440px;
+    margin-top: 50px;
+    padding: 24px;
+    background-color:#FFE3E4
+}
+
+h2.title
+{
+    text-align:center;
+}
+
+img.avatar
+{
+    width:30%;
+}
+
+nav.description
+{
+    display:inline-block;
+    margin:0;
+}
+
+input#name
+{
+    width: 98%;
+    height: 25px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/27a8d3385a.js" crossorigin="anonymous"></script>
+    <include  href="connexion.html" rel="connexion"> </include>
+    <link rel="stylesheet" type="text/css" href="compte.css">
+    <script src="script.js"></script>
+    <title>Projet</title>
+</head>
+<header>
+
+    <!-- LOGO + NAVBAR-->
+    <div class="logo">
+        <img class="logo" src="logo orange.jpg" alt="Logo">
+        <div class="text">
+            <h2> Airbnb, le 2nd voyage de logement ! </h2>
+        </div>
+        <nav class="menu">
+            <ul>
+            <li class="menu"><a href="index.html" style="text-decoration: none; color:black">Index</a></li>
+            <li class="menu"><a href="connexion.html" style="text-decoration: none; color:black">Connexion</a></li>
+            <li class="menu"><a href="offer.html" style="text-decoration: none; color:black">Offre</a></li>
+            <li class="menu"><a href="compte.html" style="text-decoration: none; color:black">Compte</a></li>
+            <li class="menu"><a href="bien.html" style="text-decoration: none; color:black">Biens</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<body>
+    <div class="profil">
+        <h2 class="title"> Profil</h2>
+            <img class="avatar" src="logo orange.jpg">
+        <nav class="description">
+            <ul>
+                <li class="description"> 
+                    <select name="gender" id="status">
+                        <option value="">Mr.</option>
+                        <option value="mme">Mme.</option>
+                        <option value="ms">Ms.</option>
+                        <option value="roi">Roi</option>
+                    </select> Pseudo </li>
+                <li class="description"> Statut :
+                    <select name="status" id="status">
+                        <option value="rl">Recherche de location</option>
+                        <option value="vl">Vendeur de location</option>
+                        <option value="admin">Administrateur</option>
+                        <option value="usern">Utilisatueur non renseignée</option>
+                    </select>
+                </li>
+                <li class="description"> Lieu : 9, rue Gépadinspi</li>
+                <li class="description"> Né(e) le 01/01/2001</li>
+                <li class="descrtription"> Inscrit le 25/03/2017</li>
+            </ul>
+        </nav>
+        <div class="resume">
+            <p class="resume"> <label for="name">Description :</label> </p>
+
+                <input type="text" id="name" name="name" required
+                       minlength="0" maxlength="360" size="10">
+        </div>
+        <div class="backlog">
+            <p class="backlog"> Est allé dernièrement :</p>
+            <p class="backlog"> A Amiens, le 12/04/2017</p>
+            <p class="backlog"> A Perpignan, le 17/12/2019</p>
+        </div>
+
+    </div>
+
+
+</body>
+
+<footer>
+    <h2> Airbnb Copyright 2020, tout droit réservés.</h2>
+</footer>
